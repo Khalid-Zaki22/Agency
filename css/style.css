@@ -1,0 +1,132 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+/* title */ 
+.title{
+    position: relative;
+ }
+ 
+ .title::before{
+     content: "";
+     position: absolute;
+     background-color: #a517ba;
+     height: 3px;
+     width: 200px;
+     bottom: -10px;
+     left: 50%;
+     transform: translate(-50%);
+     -webkit-transform: translate(-50%);
+     -moz-transform: translate(-50%);
+     -ms-transform: translate(-50%);
+     -o-transform: translate(-50%);
+ }
+
+/* navbar */ 
+
+.navbar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background-image: linear-gradient(to right ,#a517ba , #5f1782);
+    padding: 0 !important;
+}
+
+.navbar-brand img{
+   height: 40px;
+   padding-left: 20px;
+}
+
+.navbar-nav li{
+
+    padding: 0 10px;
+
+}
+
+.navbar-nav li a{
+    color: white !important;
+    font-weight: 600;
+}
+
+/* banner */
+.banner{
+    background-image: linear-gradient(to right ,#a517ba , #5f1782); 
+}
+
+.banner .play-btn{
+    width: 45px;
+
+}
+
+/* services */
+
+.services .service-img{
+    width: 100px;
+}
+
+.services .service p{
+   color: #44024e;
+}
+
+
+
+.services .btn{
+    background-color: #a517ba;
+}
+
+/*testmonials*/
+.testmonials{
+    border-left: 4px solid #7b1798;
+}
+
+.testmonials img{
+    height: 60px;
+    width: 60px;
+}
+
+/* contact*/
+.social-icons img{
+    width: 60px;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+}
+
+.social-icons a:hover img{
+    transform: translateY(-10px);
+    -webkit-transform: translateY(-10px);
+    -moz-transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
+    -o-transform: translateY(-10px);
+}
+
+/* footer */
+
+footer{
+    background-image: linear-gradient(to right ,#a517ba , #5f1782); 
+}
+
+.footer-box img{
+    width: 120px;
+}
+
+.footer-box .fa-solid{
+    background-image: linear-gradient(to right ,#a517ba , #5f1782);  
+    height: 40px;
+    width: 40px;
+   padding: 10px;
+  
+}
+
+.footer-box .btn{
+    background-image: linear-gradient(to right ,#a517ba , #5f1782);
+     
+}
+
